@@ -48,6 +48,7 @@ The following tools were used in this project:
 - [Popper.js](https://popper.js.org/)
 - [Bootstrap](https://getbootstrap.com/)
 
+
 ## :checkered_flag: Starting ##
 
 ```bash
@@ -57,6 +58,7 @@ $ git clone https://github.com/cort-robinson/holberton-smiling-school
 # Access
 $ cd holberton-smiling-school
 ```
+
 
 Made with :heart: by <a href="https://github.com/cort-robinson" target="_blank">Cort Robinson</a>
 
