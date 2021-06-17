@@ -1,6 +1,10 @@
 :root {
     --clr-primary: #C271FF;
     --clr-light: #FFF;
+    --clr-primary-hover: #8b50b7;
+
+    --transition-time: 150ms;
+    --transition-type: ease-in-out;
 }
 
 body {
@@ -55,6 +59,13 @@ header {
     padding: 0;
     font-weight: bold;
     text-transform: uppercase;
+    transition: background-color var(--transition-time) var(--transition-type), opacity var(--transition-time) var(--transition-type);
+}
+
+.btn:hover,
+.btn:active {
+    background-color: var(--clr-primary-hover);
+    opacity: 0.9;
 }
 
 .btn-primary {
