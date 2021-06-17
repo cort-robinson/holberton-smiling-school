@@ -131,6 +131,7 @@ header {
 .carousel-control-next,
 .carousel-control-prev {
     height: 148px;
+    overflow: hidden;
 }
 
 .holberton_school-icon-arrow_3::before,
