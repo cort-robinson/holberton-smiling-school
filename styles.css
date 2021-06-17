@@ -1,0 +1,101 @@
+:root {
+    --clr-primary: #C271FF;
+    --clr-light: #FFF;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    background: linear-gradient(to top, #071629 30%, transparent), url("images/pic_1.jpg") left -28em top -5em;
+    background-repeat: no-repeat;
+    background-size: cover, cover;
+    /* fixed height below according to figma; breaks bg-size animation */
+    /* height: 1386px; */
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.nav-smile {
+    width: 36.39px;
+}
+
+.nav-logo {
+    width: 114px;
+}
+
+.nav-item {
+    font-size: .75rem;
+    font-weight: 700;
+    margin-left: 3em;
+}
+
+.main-title {
+    font-size: 3.8125rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.weird-stuff {
+    max-width: 20em;
+}
+
+.btn {
+    border-radius: 22px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: .875rem;
+    width: 162px;
+    height: 44px;
+    line-height: 44px;
+    padding: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background-color: var(--clr-primary);
+}
+
+.main-description {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.main-description--text--purple {
+    color: var(--clr-primary);
+    font-weight: 700;
+}
+
+.smile-heading {
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.6875rem;
+    margin-bottom: 0;
+}
+
+.smile-text {
+    font-style: italic;
+    line-height: 1.5rem;
+}
+
+.smile-pic {
+    width: 150px;
+    height: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .main-title {
+        font-size: 7.5rem;
+    }
+
+    header {
+        background-image: url("images/pic_1.jpg");
+        background-size: cover;
+        background-position: center top;
+    }
+}
