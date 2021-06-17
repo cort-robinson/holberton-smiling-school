@@ -63,13 +63,20 @@ header {
 }
 
 .btn:hover,
-.btn:active {
+.btn:active,
+.btn:focus {
     background-color: var(--clr-primary-hover);
     opacity: 0.9;
 }
 
 .btn-primary {
     background-color: var(--clr-primary);
+}
+
+.btn-primary:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+    background-color: var(--clr-primary-hover);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .main-description {
@@ -97,6 +104,28 @@ header {
 .smile-pic {
     width: 150px;
     height: auto;
+}
+
+/* Part 1 styles */
+.part-1 {
+    background-color: var(--clr-primary);
+}
+
+.carousel-item img {
+    width: 148px;
+    height: 148px;
+}
+
+.carousel-text {
+    font-size: 1.375rem;
+}
+
+.carousel-name {
+    font-weight: 700;
+}
+
+.carousel-title {
+    font-style: italic;
 }
 
 @media screen and (min-width: 768px) {
