@@ -128,6 +128,16 @@ header {
     font-style: italic;
 }
 
+.carousel-control-next,
+.carousel-control-prev {
+    height: 148px;
+}
+
+.holberton_school-icon-arrow_3::before,
+.holberton_school-icon-arrow_4::before {
+    font-size: 6em;
+}
+
 @media screen and (min-width: 768px) {
     .main-title {
         font-size: 7.5rem;
@@ -137,5 +147,10 @@ header {
         background-image: url("images/pic_1.jpg");
         background-size: cover;
         background-position: center top;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        height: inherit;
     }
 }
