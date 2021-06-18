@@ -26,7 +26,7 @@ header {
 }
 
 .nav-smile {
-    width: 36.39px;
+    width: 37px;
 }
 
 .nav-logo {
@@ -37,6 +37,14 @@ header {
     font-size: .75rem;
     font-weight: 700;
     margin-left: 3em;
+}
+
+.nav-link {
+    transition: color var(--transition-time) var(--transition-type);
+}
+
+.nav-link:hover {
+    color: var(--clr-primary) !important;
 }
 
 .main-title {
@@ -165,6 +173,15 @@ header {
 .card img {
     width: 100%;
     height: auto;
+}
+
+.card-thumbnail::before {
+    position: absolute;
+    content: "";
+    background-image: url("images/play.png");
+    width: 64px;
+    height: 64px;
+    pointer-events: none;
 }
 
 .card-title {
