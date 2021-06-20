@@ -265,6 +265,31 @@ header {
     font-weight: 700;
 }
 
+/* Footer styles */
+
+footer {
+    background-color: var(--clr-dark);
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social a {
+    flex-basis: 15.5%;
+}
+
+.social a::before {
+    font-size: 2em;
+}
+
+.copyright {
+    font-size: .875rem;
+    color: var(--clr-light);
+    opacity: .35;
+}
+
 @media screen and (min-width: 768px) {
     .main-title {
         font-size: 7.5rem;
