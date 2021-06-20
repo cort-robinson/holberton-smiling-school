@@ -231,6 +231,40 @@ header {
     font-size: .875rem;
 }
 
+/* Part 3 styles */
+
+.part-3 {
+    background-color: var(--clr-dark);
+}
+
+.part-3-heading {
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.smiley {
+    max-width: 27ch;
+}
+
+.smiley > img {
+    width: 45px;
+    height: 36px;
+}
+
+.smiley-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.smiley-text {
+    font-size: .875rem;
+}
+
+.part-3-heading > span {
+    color: var(--clr-primary);
+    font-weight: 700;
+}
+
 @media screen and (min-width: 768px) {
     .main-title {
         font-size: 7.5rem;
