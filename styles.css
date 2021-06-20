@@ -378,6 +378,23 @@ footer {
     opacity: 0.5;
 }
 
+/* Courses specific */
+
+.courses-header {
+    background: linear-gradient(to top, #071629 30%, transparent), url("images/pic_3.jpg") center top;
+    background-repeat: no-repeat;
+    background-size: cover, cover;
+}
+
+#courses-quote {
+    font-family: 'Coiny', cursive;
+    font-size: 2rem;
+}
+
+#courses-purple-smile {
+    color: var(--clr-primary);
+}
+
 
 @media screen and (min-width: 768px) {
     .main-title {
@@ -398,6 +415,14 @@ footer {
 
     .pricing-header {
         background: linear-gradient(to top, #071629 30%, transparent), url("images/pic_2.jpg") center top;
+        background-repeat: no-repeat;
+        background-size: cover, cover;
+    }
+
+    /* Courses specific */
+
+    .courses-header {
+        background: linear-gradient(to top, #071629 30%, transparent), url("images/pic_3.jpg") center top;
         background-repeat: no-repeat;
         background-size: cover, cover;
     }
