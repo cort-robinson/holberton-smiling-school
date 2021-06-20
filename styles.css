@@ -359,6 +359,25 @@ footer {
     height: 35px;
 }
 
+/* FAQ section */
+
+#faq-heading {
+    font-weight: 300;
+    font-size: 3.75rem;
+}
+
+.faq-question {
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--clr-dark);
+}
+
+.faq-answer {
+    font-size: .875rem;
+    color: var(--clr-dark);
+    opacity: 0.5;
+}
+
 
 @media screen and (min-width: 768px) {
     .main-title {
