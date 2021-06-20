@@ -231,6 +231,30 @@ header {
     font-size: .875rem;
 }
 
+/* Pricing specific */
+
+.pricing-header {
+    background: linear-gradient(to top, #071629 30%, transparent), url("images/pic_2.jpg") left -37em top 0;
+    background-repeat: no-repeat;
+    background-size: cover, cover;
+}
+
+.main-intro h2 {
+    font-size: 1.5rem;
+}
+
+.main-intro-subtitle {
+    font-family: 'Coiny', cursive;
+}
+
+#main-intro-smile {
+    width: 30px;
+    height: 24px;
+    margin-left: .15em;
+    margin-right: .15em;
+    margin-bottom: .15em;
+}
+
 /* Part 3 styles */
 
 .part-3 {
@@ -246,7 +270,7 @@ header {
     max-width: 27ch;
 }
 
-.smiley > img {
+.smiley>img {
     width: 45px;
     height: 36px;
 }
@@ -260,7 +284,7 @@ header {
     font-size: .875rem;
 }
 
-.part-3-heading > span {
+.part-3-heading>span {
     color: var(--clr-primary);
     font-weight: 700;
 }
@@ -303,5 +327,9 @@ footer {
 
     .section-1-icon {
         height: inherit;
+    }
+
+    .header-buttons {
+        flex-basis: 66%;
     }
 }
